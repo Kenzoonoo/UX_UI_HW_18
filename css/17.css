@@ -18,7 +18,7 @@ li{
     line-height: 0%;
     float: right;
     vertical-align: middle;
-    font-size: 28px;
+    font-size: calc(15px + 0.390625vw);
 }
 
 
@@ -51,7 +51,7 @@ li{
 
 .h1_1 {
     color: white;
-    font-size: 48px;
+    font-size: calc(38px + 0.390625vw);
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
     line-height: 48px;
@@ -63,7 +63,7 @@ li{
 
 body{
     color: white;
-    font-size: 26px;
+    font-size: calc(18px + 0.390625vw);
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
     line-height: 26px;
@@ -77,7 +77,7 @@ button {
     background-color: #44509C ;
     color: white;
     border: none;
-    font-size: 26px;
+    font-size: calc(15px + 0.390625vw);
     padding: 20px;
     border-style: outset;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -182,7 +182,13 @@ h4 {
     text-decoration: underline;
 }
 
+h3 {
+    font-size: calc(15px + 0.390625vw);
+}
 
+p {
+    font-size: calc(15px + 0.390625vw);
+}
 
 @media only screen and (max-width:600){
     .flexContainer{ 
